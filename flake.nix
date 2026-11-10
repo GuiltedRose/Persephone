@@ -32,7 +32,7 @@
           tools = with pkgs; [
             bashInteractive coreutils findutils gnugrep gnused gawk less jq
             curl wget openssl netcat-openbsd dnsutils whois
-            nmap tcpdump tshark ffuf gobuster sqlmap hydra john hashcat
+            nmap tcpdump tshark termshark ffuf gobuster sqlmap hydra john hashcat
             steghide exiftool file unzip p7zip openvpn
           ];
           # Supply the bundled list without relying on Kali's /usr/share paths.
