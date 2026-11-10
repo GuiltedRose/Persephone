@@ -1,0 +1,22 @@
+# Nix build outputs
+result
+result-*
+
+# Local development environments
+.direnv/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
+
+# Local secrets
+.env
+.env.*
+!.env.example
